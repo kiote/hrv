@@ -13,3 +13,7 @@ I used this repo for installation on Ubuntu: https://github.com/jitendra29mishra
 ```
 g++ camera.cpp -o hrv.bin `pkg-config --cflags --libs opencv4`
 ```
+
+### Useful links
+
+https://docs.opencv.org/master/db/d28/tutorial_cascade_classifier.html
