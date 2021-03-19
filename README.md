@@ -10,4 +10,6 @@ I used this repo for installation on Ubuntu: https://github.com/jitendra29mishra
 
 ### Compile camera.cpp
 
-`g++ camera.cpp -o hrv.bin `pkg-config --cflags --libs opencv4``
+```
+g++ camera.cpp -o hrv.bin `pkg-config --cflags --libs opencv4`
+```
