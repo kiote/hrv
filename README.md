@@ -1,6 +1,6 @@
 ## HRV measurements via rPPG
 
-The project is in ongoing development, but the main goal is to be able to measure HRV via laptop / web camera.
+The project is in ongoing development, but the main goal is to be able to measure HRV (heart rate variability) via laptop / web camera.
 
 ## Requirements
 
