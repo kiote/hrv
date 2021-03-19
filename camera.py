@@ -17,6 +17,9 @@ while True:
     cv.imshow('frame', gray)
     if cv.waitKey(1) == ord('q'):
         break
+    # get FPS
+    fps = cap.get(cv.CAP_PROP_FPS)
+    print("Frames per second using video.get(cv2.CAP_PROP_FPS) : {0}".format(fps))
 # When everything done, release the capture
 cap.release()
 cv.destroyAllWindows()
