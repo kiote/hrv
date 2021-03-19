@@ -12,7 +12,9 @@ int deviceID = 0;
 int apiID = cv::CAP_ANY;
     
 int main(int, char**) {
-    cap.open(deviceID, apiID);
+    cout << "OpenCV version : " << CV_VERSION << endl;
+   
+    cap.open("v4l2src device=/dev/video0 ! video/x-raw, format=YUY2, width=640, height=480, framerate=30/1 ! videoconvert ! video/x-raw, format=BGR ! appsink");
     if (!cap.isOpened()) {
         cerr << "ERROR! Unable to open camera\n";
         return -1;
